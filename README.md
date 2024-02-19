@@ -1,1 +1,1 @@
-# Add-ons-for-Google-Workspace
+# Add ons for Google Workspace
