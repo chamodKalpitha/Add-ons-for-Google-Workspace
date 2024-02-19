@@ -3,9 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+
+    :root {
+      --primary: #0673C1;
+      --black100: #2A2E30;
+      --black75: #606264;
+      --black10: #EAEAEA;
+      --black5: #F4F5F5;
+    }
+    *{
+      font-family: "Roboto", sans-serif;
+      color: #2A2E30;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    hr{
+      border: 0.5px solid var(--black10);
+      border-radius: 99px;
+    }
+    .container{
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    .heading {
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+    .heading-description{
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--black75);
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .quizz-body{
+      border: 1px solid var(--black5);
+      border-radius: 16px;
+      padding: 16px;
+
+    }
+  </style>
 </head>
 <body>
-  
+  <div class="container">
+    <div>
+      <p class="heading">Generate your next quiz</p>
+      <p class="heading-description">Please fill the form below to receive a quote for your project.Feel free tp ass as much details as needed</p>
+    </div>
+    <div class="quizz-body">
+      <div>
+        <p>1</p><p>2</p><p>3</p>
+      </div>
+      <hr>
+      <div>
+        <div class="step-heading">
+          <p>Main Strcture of the quiz</p>
+          <p>Please select which service you are interest in.</p>
+        </div>
+          <div class="selection">
+            <p>Entire Document</p>
+          </div>
+          <div class="selection">
+            <p>Selected Text</p>
+          </div>
+          <div class="selection">
+            <p>Pages From</p>
+          </div>
+          <input type="text">
+          <p>Enter page numbers and /or page ranges separated by commas.For example, 1,5-12</p>
+        </div>
+      </div>
+      <div>
+        <button>Next Step</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
